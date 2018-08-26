@@ -35,6 +35,8 @@ public class HomeController {
 		return mv;
 	}
 	
+	
+	
 	@RequestMapping("/list-items")
 	public ModelAndView listItems() {
 		ModelAndView mv = new ModelAndView("list-items");
@@ -112,11 +114,18 @@ public class HomeController {
 		
 	}
 	
-	@RequestMapping("/user/add")
-	public ModelAndView createUser() {
-		ModelAndView mv = new ModelAndView("register");
-		mv.addObject("regist", usersDao.findAll());
+	@RequestMapping("/users/add")
+	public ModelAndView addUser() {
+		ModelAndView mv = new ModelAndView("users2-form");
+		mv.addObject("title", "Add User");
 		
 		return mv;
+	}
+	
+	@PostMapping("/users/add")
+	public ModelAndView submitUsersAdd(Users users) {
+		usersDao.save(users);
+		return new ModelAndView("redirect:/list-users");
+
 	}
 }

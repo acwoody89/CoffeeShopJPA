@@ -17,17 +17,8 @@
 
 		<h1>Welcome to Hectic Eclectic!</h1>
 	</div>
-	<a href="/register" class="btn btn-link">Register</a> <br>
 	<a href="list-items" class="btn btn-link">Item List</a> <br>
 	<a href="list-users" class="btn btn-link">User List</a> <br>
-
-
-	<form action="search">
-
-		Name Of Item: <input type="text" name="personid"> <br> <input
-			type="submit" value="Search">
-	</form>
-
 	
 
 

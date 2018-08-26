@@ -56,7 +56,7 @@
 			</tbody>
 		</table>
 
-		<a class="btn btn-dark btn-largee" href="/user/add">Add</a>
+		<a class="btn btn-dark btn-largee" href="/users/add">Add</a>
 		<a href="/index" class="btn btn-link">Cancel</a>
 	</div>
 </body>

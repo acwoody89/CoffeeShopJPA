@@ -41,7 +41,7 @@
 			    <input class="form-control" id="password" name="password" value="${users.password}" required minLength="2" autocomplete="off">
 			</div>
 			<button type="submit" class="btn btn-primary">Submit</button>
-			<a href="/list-items" class="btn btn-link">Cancel</a>
+			<a href="/list-users" class="btn btn-link">Cancel</a>
 		</form>
 	</div>
 </body>
