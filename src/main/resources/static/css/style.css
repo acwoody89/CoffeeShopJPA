@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+h1 {
+	color: blue;
+}
+
+#box {
+	border-style: solid;
+	width: 200px;
+	height:auto;
+}
+#image {
+   background-image: url(/images/coffee.jpg);
+   size:100%;
+   
+}
